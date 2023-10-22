@@ -1,0 +1,13 @@
+{
+  "name": "fintech-mock-api",
+  "version": "1.0.0",
+  "description": "A mock app for a fintech transaction api",
+  "main": "index.js",
+  "repository": "https://github.com/Esatollah/fintech-mock-api.git",
+  "author": "Esatollah Ghazi",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
