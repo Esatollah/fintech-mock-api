@@ -54,7 +54,7 @@ export default function Home() {
   return (
     < >
       <div className="flex-col md:flex">
-        <div className="border-b">
+        <div className="hidden md:block border-b">
           <div className="flex h-16 items-center px-4">
             <TeamSwitcher />
             <MainNav className="mx-6" />
