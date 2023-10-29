@@ -157,7 +157,7 @@ export function AddCardDialog({ cards, setCards }: AddCardDialogProps) {
           </div>
           <div className="flex items-center mt-4 space-x-2">
             <Checkbox name="terms" id="terms" />
-            <h6 className="text-xs text-gray-600">By entering your card details and confirming, you grant our platform the right to analyze and relay transaction specifics (such as purchase amount, vendor, and timestamp) to our Payment Data Provider. This aids in optimizing expense tracking. Some transaction data might be disclosed to relevant partners in accordance with our User Agreement and Privacy Policy. All actions adhere to stringent privacy guidelines to ensure your data's safety. Remember, you can disable this tracking feature anytime via your profile settings</h6>
+            <h6 className="text-xs text-gray-600">By entering your card details and confirming, you grant our platform the right to analyze and relay transaction specifics (such as purchase amount, vendor, and timestamp) to our Payment Data Provider. This aids in optimizing expense tracking. Some transaction data might be disclosed to relevant partners in accordance with our User Agreement and Privacy Policy. All actions adhere to stringent privacy guidelines to ensure your data&apos;s safety. Remember, you can disable this tracking feature anytime via your profile settings</h6>
           </div>
           <DialogFooter className="mt-6">
             <DialogClose asChild>
