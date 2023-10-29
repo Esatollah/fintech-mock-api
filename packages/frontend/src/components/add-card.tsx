@@ -92,6 +92,10 @@ export function AddCardDialog({ cards, setCards }: AddCardDialogProps) {
 
 
     setCards([...cards, newCard]);
+    toast({
+        title: "Card Added",
+        description: "Successfully added mock card.",
+      })
     e.currentTarget.reset();
   };
 
