@@ -194,7 +194,7 @@ export default function Home() {
               <CardTable data={cards} columns={cardColumns} />
             </TabsContent>
             <TabsContent value="webhooks">
-              Users have the ability to set Webhooks to their server endpoints.
+              Users and Businesses have the ability to set Webhooks to their server endpoints.
             </TabsContent>
           </Tabs>
         </div>
