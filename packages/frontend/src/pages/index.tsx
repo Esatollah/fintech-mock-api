@@ -177,7 +177,7 @@ export default function Home() {
               <TabsTrigger value="cards">
                 Cards
               </TabsTrigger>
-              <TabsTrigger value="webhooks" >
+              <TabsTrigger value="webhooks" disabled >
                 Webhooks
               </TabsTrigger>
             </TabsList>
